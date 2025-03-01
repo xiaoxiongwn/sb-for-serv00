@@ -2,7 +2,7 @@
 SERV00PASSWORD=${SERV00PASSWORD:-'password'}
 
 USERNAME=$(whoami)
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+UUID=${UUID:-'51661e43-89a1-4768-a321-8a713b9a391f'}
 USERNAME_DOMAIN=$(whoami | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9-]//g')
 WORKDIR="/home/${USERNAME}/domains/${USERNAME_DOMAIN}.serv00.net/public_nodejs"
 
